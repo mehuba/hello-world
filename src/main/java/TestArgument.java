@@ -3,6 +3,8 @@
  */
 public class TestArgument {
 
+    static Gizmo gizmo;
+
     static void increment(int i) {
         i++;
     }
@@ -47,6 +49,7 @@ class childGizmo extends Gizmo {
         super(i);
     }
 
+    // not a override method
     void method() {
 
     }
