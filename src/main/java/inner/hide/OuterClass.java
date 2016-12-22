@@ -1,3 +1,5 @@
+package inner.hide;
+
 import java.util.Date;
 
 interface Destination {
