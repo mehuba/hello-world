@@ -1,5 +1,6 @@
 package inner.hide;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 interface Destination {
