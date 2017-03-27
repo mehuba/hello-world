@@ -1,3 +1,5 @@
+package thkinjava.test;
+
 /**
  * Main class
  * Created by Nico on 11/14/16 18:32.
@@ -55,7 +57,7 @@ class Chair {
                     " Chairs have been created");
         }
         if (i == 47) {
-            System.out.println("Finalize Chair #47, " + "Setting flag to stop Chair creation");
+            System.out.println("Finalize thkinjava.test.Chair #47, " + "Setting flag to stop thkinjava.test.Chair creation");
             f = true;
         }
         finalized++;

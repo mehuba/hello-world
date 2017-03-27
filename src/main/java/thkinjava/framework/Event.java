@@ -1,4 +1,4 @@
-package framework;
+package thkinjava.framework;
 
 /**
  * Created by Nico on 2/3/17 11:48.

@@ -1,4 +1,4 @@
-package inner.scope;
+package thkinjava.inner.scope;
 
 /**
  * Created by Nico on 12/21/16 16:47.
@@ -25,7 +25,7 @@ public class Parcel {
         return new InnerDestination(s);
     }
 
-    public Destination destAnonymous(String s) {
+    public Destination destAnonymous(final String s) {
         return new Destination() {
             @Override
             public String readLabel() {

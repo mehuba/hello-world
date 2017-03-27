@@ -1,4 +1,4 @@
-package inner.scope;
+package thkinjava.inner.scope;
 
 /**
  * Created by Nico on 12/21/16 16:32.

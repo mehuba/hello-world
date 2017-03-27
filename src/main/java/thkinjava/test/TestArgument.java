@@ -1,3 +1,8 @@
+package thkinjava.test;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+
 /**
  * Created by Nico on 12/14/16 10:31.
  */
@@ -10,7 +15,7 @@ public class TestArgument {
     }
 
     static void testHandle(Gizmo gizmo) {
-//        gizmo = new Gizmo(2);
+//        gizmo = new thkinjava.test.Gizmo(2);
         gizmo.setI(2);
     }
 
@@ -51,6 +56,7 @@ class childGizmo extends Gizmo {
 
     // not a override method
     void method() {
-
+        ArrayList<Integer> integers = new ArrayList<>();
+        LinkedList<Integer> integers1 = new LinkedList<>();
     }
 }

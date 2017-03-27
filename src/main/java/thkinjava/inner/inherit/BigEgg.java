@@ -1,4 +1,4 @@
-package inner.inherit;
+package thkinjava.inner.inherit;
 
 /**
  * Created by Nico on 12/22/16 10:57.
