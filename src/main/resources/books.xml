@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<books>
+<books xmlns="http://test">
     <book id="001">
         <title>Harry Potter</title>
         <author>J K. Rowling</author>

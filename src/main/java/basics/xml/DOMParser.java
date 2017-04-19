@@ -26,10 +26,16 @@ public class DOMParser {
         for (int i = 0; i < nodes.getLength(); i++) {
             Node node = nodes.item(i);
             if (node.getNodeType() == Node.ELEMENT_NODE) {
-                System.out.println("element node" + node);
+                System.out.println("element node under root node" + node);
             }
         }
         domParser.traverse(rootElement);
+        NodeList nodeList = rootElement.getElementsByTagName("booka");
+        for (int i = 0; i < nodeList.getLength(); i++) {
+            Element element = (Element) nodeList.item(i);
+            System.out.println(element.getAttribute("id"));
+        }
+
     }
 
     public Document parse(String filePath) {
@@ -54,6 +60,8 @@ public class DOMParser {
             Node child = nodes.item(i);
             if (child.getNodeType() == Node.ELEMENT_NODE) {
                 traverse(child);
+            } else {
+                System.out.println(child);
             }
         }
     }
