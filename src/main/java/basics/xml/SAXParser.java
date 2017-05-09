@@ -23,7 +23,7 @@ public class SAXParser {
         @Override
         public void startDocument() throws SAXException {
             System.out.println("Starting parsing document...");
-            nameList = new ArrayList<>();
+            nameList = new ArrayList<String>();
         }
 
         @Override

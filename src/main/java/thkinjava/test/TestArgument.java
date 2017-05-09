@@ -56,7 +56,7 @@ class childGizmo extends Gizmo {
 
     // not a override method
     void method() {
-        ArrayList<Integer> integers = new ArrayList<>();
-        LinkedList<Integer> integers1 = new LinkedList<>();
+        ArrayList<Integer> integers = new ArrayList<Integer>();
+        LinkedList<Integer> integers1 = new LinkedList<Integer>();
     }
 }
