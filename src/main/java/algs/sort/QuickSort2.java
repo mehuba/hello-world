@@ -16,11 +16,10 @@ public class QuickSort2 {
     private static int partition(int[] a, int start, int end) {
         int pivot = a[start];
         while (start < end) {
-            while (start < end && a[end] >= pivot) end--;
-            swap(a, start, end);
             while (start < end && a[start] <= pivot) start++;
             swap(a, start, end);
-
+            while (start < end && a[end] >= pivot) end--;
+            swap(a, start, end);
         }
         Print.print(a);
         return start;
